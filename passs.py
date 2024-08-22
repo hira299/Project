@@ -39,9 +39,11 @@ def calculate_password_strength(password):
 def main():
     st.title("Password Strength Tester")
     
-    password = st.text_input("Enter your password", type="password").strip()
+    password = st.text_input("Enter your password", type="password")
     
-    if password:
+    if ' ' in password:
+        st.error("Spaces are not allowed in the password. Please enter a password without spaces.")
+    elif password:
         calculate_password_strength(password)
         
 
