@@ -1,6 +1,15 @@
 # Password Strength Tester Using Streamlit
 This project is a simple password strength tester built using Python and Streamlit. The application evaluates the strength of a given password based on several criteria, such as length, inclusion of digits, uppercase and lowercase letters, and special characters. It then categorizes the password as "Weak," "Moderate," or "Strong."
 
+## Preview
+
+![Screenshot (4)](https://github.com/user-attachments/assets/92414134-e08f-4797-8403-eaf4d3253677)
+*The main screen where the user enters the password.*
+
+
+![Screenshot (7)](https://github.com/user-attachments/assets/a7e938c2-353d-44bb-98b5-23efed9cd0c5)
+*The result screen showing the password strength.*
+
 ## How It Was Done:
 ### Libraries Used:
 
