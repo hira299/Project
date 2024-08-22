@@ -32,4 +32,6 @@ It then displays the strength of the password as either "Weak," "Moderate," or "
 - Install the required packages using pip install streamlit.
 - Run the application by executing streamlit run <script_name>.py in the terminal.
 - Enter a password in the provided text box, and the application will display the password's strength.
+
+
 This project demonstrates basic password strength evaluation logic and showcases how to build a simple interactive web app using Streamlit.
