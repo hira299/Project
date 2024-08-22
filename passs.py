@@ -39,7 +39,7 @@ def calculate_password_strength(password):
 def main():
     st.title("Password Strength Tester")
     
-    password = st.text_input("Enter your password", type="password")
+    password = st.text_input("Enter your password", type="password").strip()
     
     if password:
         calculate_password_strength(password)
